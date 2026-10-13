@@ -1,0 +1,34 @@
+/* BIPL Brand Palette */
+
+:root {
+  /* --- Primary (navy) scale --- */
+  --color-primary-50: #f3f6fb;
+  --color-primary-100: #e7ebf3;
+  --color-primary-200: #d3d9e6;
+  --color-primary-300: #b1b9cd;
+  --color-primary-400: #8c97b3;
+  --color-primary-500: #6a7799;
+  --color-primary-600: #4f5c7e;
+  --color-primary-700: #3a4563;
+  --color-primary-800: #29324b;
+  --color-primary-900: #1b2235;
+  --color-primary-950: #0f131e;
+
+  /* --- Secondary (soft light) scale --- */
+  --color-secondary-50: #f9fbfd;
+  --color-secondary-100: #f3f6fb;
+  --color-secondary-200: #e7ebf3;
+  --color-secondary-300: #d3d9e6;
+  --color-secondary-400: #b1b9cd;
+
+  /* --- Semantic aliases --- */
+  --color-primary: var(--color-primary-900);      /* main brand color */
+  --color-primary-hover: var(--color-primary-800);
+  --color-secondary: var(--color-secondary-100);  /* soft surface / section bg */
+  --color-surface: #ffffff;
+  --color-bg: var(--color-secondary-100);
+  --color-ink: var(--color-primary-900);          /* headings / body text */
+  --color-muted: var(--color-primary-500);        /* secondary text */
+  --color-border: var(--color-primary-200);
+  --color-on-primary: #ffffff;                    /* text on dark primary */
+}
